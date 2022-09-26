@@ -16,7 +16,7 @@ const stripeRoutes = require("./routes/stripepayment");
 
 mongoose
     .connect(
-        // " mongodb+srv://vipin:vipin1234@cluster0.wdbru.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        
         "mongodb://localhost:27017/testTshirt",
         {
             useNewUrlParser: true,
